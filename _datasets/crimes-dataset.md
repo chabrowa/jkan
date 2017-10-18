@@ -5,7 +5,7 @@ organization: Dataset Summaries
 notes: This is a dataset that is the part of the study....
 resources:
   - name: our test file
-    url: '/csv/test.csv'
+    url: 'http://chabrowa.github.io/jkan/csv/test.csv'
     format: csv
 license: 'https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/'
 category:
