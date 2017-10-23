@@ -23,30 +23,7 @@ layout: poor
 <body>
 
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">DS3</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="services.html">Research</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="faq.html">FAQ</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  {% include header.html %}
 
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -99,7 +76,7 @@ layout: poor
         <div class="card h-100">
           <h4 class="card-header">Dataset Search</h4>
           <div class="card-body">
-            <p class="card-text">Structured data is organised explicitly - such as in spreadsheets, web tables, databases or maps and typically grouped into datasets, many of which are published on the web, for instance in data catalogues available on data portals. DS3 allows you to search for such datasets. 
+            <p class="card-text">Structured data is organised explicitly - such as in spreadsheets, web tables, databases or maps and typically grouped into datasets, many of which are published on the web, for instance in data catalogues available on data portals. DS3 allows you to search for such datasets.
 </p>
           </div>
           <!--<div class="card-footer">
